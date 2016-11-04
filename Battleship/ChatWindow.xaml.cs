@@ -19,9 +19,21 @@ namespace Battleship
     /// </summary>
     public partial class ChatWindow : Window
     {
+
+        private int senderId, receiverId, chatId;
         public ChatWindow()
         {
             InitializeComponent();
+        }
+
+        private void Message_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            //get text that user typed in 
+        }
+
+        private void Send_Click(object sender, RoutedEventArgs e)
+        {
+            //Add text from Message text onto a new line in the MessageWindow textblock with username in front of it
         }
     }
 }
