@@ -27,6 +27,7 @@ namespace Battleship
 
         private void Register_Click(object sender, RoutedEventArgs e)
         {
+            
             //TODO add user to database 
             Battleship battleship = new Battleship();
             battleship.Show();
