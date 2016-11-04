@@ -6,7 +6,5 @@
         xmlns:local="clr-namespace:Battleship"
         mc:Ignorable="d"
         Title="Layout" Height="300" Width="300">
-    <Grid>
-        
-    </Grid>
+    <Grid/>
 </Window>

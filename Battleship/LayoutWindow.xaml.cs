@@ -23,5 +23,6 @@ namespace Battleship
         {
             InitializeComponent();
         }
+
     }
 }
