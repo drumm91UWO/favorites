@@ -34,7 +34,7 @@ namespace Battleship
             return 0;
         }
 
-        public int GetGamesLot()
+        public int GetGamesLost()
         {
             return 0;
         }

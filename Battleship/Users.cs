@@ -8,5 +8,15 @@ namespace Battleship
 {
     class Users
     {
+        private int gamesWon, gamesLost, userID;
+        
+        public Users()
+        {
+            StatsWindow stats = new StatsWindow();
+            gamesWon = stats.GetGamesWon();
+            gamesLost = stats.GetGamesLost();
+            //TODO assign userID
+            userID = 0;
+        }
     }
 }
