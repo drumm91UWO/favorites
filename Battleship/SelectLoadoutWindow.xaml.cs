@@ -19,9 +19,40 @@ namespace Battleship
     /// </summary>
     public partial class SelectLoadoutWindow : Window
     {
+        private String loadoutOne;
+        private String loadoutTwo;
+        private Users user;
+
         public SelectLoadoutWindow()
         {
             InitializeComponent();
         }
+
+        public bool SetLoadoutOne(String ayyy)
+        {
+            return true;
+        }
+
+        public String getLoadoutOne()
+        {
+            return "ayyy";
+        }
+
+        public bool SetLoadoutTwo(String ayyy)
+        {
+            return true;
+        }
+
+        public String getLoadoutTwo()
+        {
+            return "ayyy";
+        }
+
+        private void radioButton_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
+
+
 }

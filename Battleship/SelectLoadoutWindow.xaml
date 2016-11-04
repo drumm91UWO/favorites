@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="SelectLoadoutWindow" Height="300" Width="300">
     <Grid>
-        
+        <RadioButton x:Name="Layout1" Content="Layout1" HorizontalAlignment="Left" Margin="62,61,0,0" VerticalAlignment="Top" Checked="radioButton_Checked"/>
+        <RadioButton x:Name="radioButton1" Content="RadioButton" HorizontalAlignment="Left" Margin="62,82,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
