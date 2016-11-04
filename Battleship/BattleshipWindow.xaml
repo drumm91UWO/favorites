@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="BattleshipWindow" Height="300" Width="300">
     <Grid>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="207,10,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="10,239,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="button3" Content="Button" HorizontalAlignment="Left" Margin="207,239,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="button4" Content="Button" HorizontalAlignment="Left" Margin="110,110,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="stats" Content="Stats" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="settings" Content="Settings" HorizontalAlignment="Left" Margin="207,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="users" Content="Users" HorizontalAlignment="Left" Margin="10,239,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="butt" Content="" HorizontalAlignment="Left" Margin="207,239,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Play" Content="Button" HorizontalAlignment="Left" Margin="110,110,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
