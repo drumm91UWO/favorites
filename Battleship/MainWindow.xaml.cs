@@ -31,6 +31,7 @@ namespace Battleship
             //TODO add user to database 
             Window battleship = new BattleshipWindow();
             battleship.Show();
+            this.Close();
         }
 
         private void SignIn_Click(object sender, RoutedEventArgs e)
@@ -38,6 +39,12 @@ namespace Battleship
             //TODO check database if user exists
             Window battleship = new BattleshipWindow();
             battleship.Show();
+            this.Close();
+        }
+
+        private void Username_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            //TODO get username from textbox
         }
     }
 }

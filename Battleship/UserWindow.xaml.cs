@@ -23,5 +23,15 @@ namespace Battleship
         {
             InitializeComponent();
         }
+
+        private void AddFriend_Click(object sender, RoutedEventArgs e)
+        {
+            //TODO find friend in database and if they exist make a button for friend
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            //TODO get username from textbox
+        }
     }
 }
