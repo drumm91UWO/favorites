@@ -23,5 +23,11 @@ namespace Battleship
         {
             InitializeComponent();
         }
+
+        private void stats_Click(object sender, RoutedEventArgs e)
+        {
+            Window stats = new StatsWindow();
+            stats.Show();
+        }
     }
 }
