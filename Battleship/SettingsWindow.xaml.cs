@@ -15,33 +15,13 @@ using System.Windows.Shapes;
 namespace Battleship
 {
     /// <summary>
-    /// Interaction logic for StatsWindow.xaml
+    /// Interaction logic for SettingsWindow.xaml
     /// </summary>
-    public partial class StatsWindow : Window
+    public partial class SettingsWindow : Window
     {
-        public StatsWindow()
+        public SettingsWindow()
         {
             InitializeComponent();
-        }
-
-        public int GetShipsSank()
-        {
-            return 0;
-        }
-
-        public int GetGamesWon()
-        {
-            return 0;
-        }
-
-        public int GetGamesLost()
-        {
-            return 0;
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            //hai
         }
     }
 }

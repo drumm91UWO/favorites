@@ -23,5 +23,23 @@ namespace Battleship
         {
             InitializeComponent();
         }
+
+        private void stats_Click(object sender, RoutedEventArgs e)
+        {
+            Window stats = new StatsWindow();
+            stats.Show();
+        }
+
+        private void settings_Click(object sender, RoutedEventArgs e)
+        {
+            Window settings = new SettingsWindow();
+            settings.Show();
+        }
+
+        private void users_Click(object sender, RoutedEventArgs e)
+        {
+            Window users = new UserWindow();
+            users.Show();
+        }
     }
 }

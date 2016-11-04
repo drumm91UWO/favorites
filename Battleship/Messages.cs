@@ -8,14 +8,14 @@ namespace Battleship
 {
     class Messages
     {
-        private String UserID1;
-        private String UserID2;
-        private String Message;
-        public Messages(String UserID1, String UserID2, String Message)
+        private String userID1;
+        private String userID2;
+        private String message;
+        public Messages(String userID1, String userID2, String message)
         {
-            this.UserID1 = UserID1;
-            this.UserID2 = UserID2;
-            this.Message = Message;
+            this.userID1 = userID1;
+            this.userID2 = userID2;
+            this.message = message;
         }
     }
 }
