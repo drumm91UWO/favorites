@@ -25,9 +25,20 @@ namespace Battleship
             InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void Register_Click(object sender, RoutedEventArgs e)
         {
             
+            //TODO add user to database 
+            Window battleship = new BattleshipWindow();
+            battleship.Show();
+            //this.Close();
+        }
+
+        private void SignIn_Click(object sender, RoutedEventArgs e)
+        {
+            //TODO check database if user exists
+            Window battleship = new BattleshipWindow();
+            battleship.Show();
         }
     }
 }
