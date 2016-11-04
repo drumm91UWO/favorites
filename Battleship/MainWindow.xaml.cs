@@ -27,9 +27,7 @@ namespace Battleship
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            Window win2 = new Window1();
-            win2.Show();
-            //this.Close();
+            
         }
     }
 }
