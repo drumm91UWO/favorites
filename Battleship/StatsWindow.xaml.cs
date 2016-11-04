@@ -23,5 +23,20 @@ namespace Battleship
         {
             InitializeComponent();
         }
+
+        public int GetShipsSank()
+        {
+            return 0;
+        }
+
+        public int GetGamesWon()
+        {
+            return 0;
+        }
+
+        public int GetGamesLot()
+        {
+            return 0;
+        }
     }
 }
