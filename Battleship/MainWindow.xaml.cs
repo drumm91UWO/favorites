@@ -29,7 +29,7 @@ namespace Battleship
         {
             
             //TODO add user to database 
-            Battleship battleship = new Battleship();
+            Window battleship = new BattleshipWindow();
             battleship.Show();
             //this.Close();
         }
@@ -37,7 +37,7 @@ namespace Battleship
         private void SignIn_Click(object sender, RoutedEventArgs e)
         {
             //TODO check database if user exists
-            Battleship battleship = new Battleship();
+            Window battleship = new BattleshipWindow();
             battleship.Show();
         }
     }
