@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Battleship
 {
     /// <summary>
-    /// Interaction logic for Window2.xaml
+    /// Interaction logic for GameWindow.xaml
     /// </summary>
-    public partial class Window2 : Window
+    public partial class GameWindow : Window
     {
-        public Window2()
+        public GameWindow()
         {
             InitializeComponent();
         }

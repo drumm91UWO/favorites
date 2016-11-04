@@ -15,20 +15,13 @@ using System.Windows.Shapes;
 namespace Battleship
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for Layout.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Layout : Window
     {
-        public Window1()
+        public Layout()
         {
             InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            Window win2 = new Window2();
-            win2.Show();
-            //this.Close();
         }
     }
 }
