@@ -41,5 +41,17 @@ namespace Battleship
             Window users = new UserWindow();
             users.Show();
         }
+
+        private void loadGame_Click(object sender, RoutedEventArgs e)
+        {
+            Window game = new GameWindow();
+            game.Show();
+        }
+
+        private void play_Click(object sender, RoutedEventArgs e)
+        {
+            Window loadout = new SelectLoadoutWindow();
+            loadout.Show();
+        }
     }
 }
