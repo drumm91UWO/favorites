@@ -6,3 +6,5 @@ Spotted Cow
 dog
 pizza (it's a vegtable)
 dirt
+pizza
+grilled cheese
